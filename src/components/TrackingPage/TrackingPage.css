@@ -1,0 +1,61 @@
+.tracking-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .header-container{
+    top: 10%;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    line-height: 2%;
+    font-weight: bold;
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.5); 
+    margin-bottom: 10%;
+  }
+
+  .header-container h1{
+
+  }
+
+  .container-track{
+    background: orange;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 386px;
+height: Fixed 492px;
+top: 322px;
+padding-left: 80px;
+gap: 32px;
+border-radius: 24px 24px 0px 0px;
+margin: 0px;
+  }
+  .quote-container {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    
+  }
+  
+  .quote-text {
+    margin: 0;
+  }
+  

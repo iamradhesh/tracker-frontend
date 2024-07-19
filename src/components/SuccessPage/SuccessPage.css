@@ -1,0 +1,106 @@
+.success-container{
+    border: 1px solid gray;
+    overflow-x: hidden;
+}
+
+
+.success-msg{
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 386px;
+height: Fixed 492px;
+top: 322px;
+padding-left: 80px;
+gap: 32px;
+border-radius: 24px 24px 0px 0px;
+margin: 0px;
+
+}
+.bar{
+    height: 2px ;
+    width: 327;
+    border: 1px solid gray;
+    margin-top: -50%;
+    display: flex;
+    background: gray;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+.success-icon{
+    width: 202.62px;
+height: 168px;
+gap: 0px;
+margin-top: 0;
+margin-left: 18%;
+
+
+}
+
+.success-icon img{
+    width: 100px;
+height: 100px;
+top: 112px;
+left: 138.19px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.heading-container{
+    width: Fill 327px;
+height: Hug 32px;
+gap: 12px;
+opacity: 0px;
+margin-top: -30%;
+padding-right: 30%;
+}
+
+.heading-container h1{
+  
+    /* //styleName: Heading/H5/Semi Bold; */
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    
+}
+
+.btn-div{
+    padding-right: 60%;
+    width: 100%;
+    margin-top: -10%;
+}
+
+.btn{
+    width:  240px;
+height:  55px;
+
+gap: 8px;
+margin-top: -10%;
+margin-left: 10%;
+
+right: 82px;
+background: #FE8C00;
+box-sizing: border-box;
+display: block;
+border: 1px solid #FE8C00;
+border-radius: 100px;
+
+color: white;
+cursor: pointer;
+
+}
+
+.btn:hover{
+    scale: 1;
+    background:orange;;
+}
+

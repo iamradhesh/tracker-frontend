@@ -1,0 +1,154 @@
+.signup-container {
+  border: 1px solid rgb(203, 196, 196);
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 4px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.heading-container-register {
+  width: 100%;
+  max-width: 327px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 3%;
+  text-align: left;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.heading {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.sub-heading {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #878787;
+}
+
+.main-box-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px 0;
+  margin-top: 2%;
+}
+
+.inputBox {
+  width: 100%;
+  max-width: 327px;
+  height: 52px;
+  border-radius: 8px;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.checkbox-label {
+  font-family: Inter;
+  font-size: 14px;
+}
+.checkbox-label .span-1 ,.span-2{
+    color: #fe8c00;
+    font-weight: 500;
+}
+.button-container {
+  width: 100%;
+  max-width: 327px;
+  padding: 16px 0;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.inputButton {
+  background: #fe8c00;
+  width: 100%;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.inputButton:hover {
+  background: #e07a00;
+}
+
+.password-icon {
+  position: absolute;
+  right: 35px;
+  top: 55%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.forgot-pass {
+  text-align: right;
+  color: #fe8c00;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.option-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.option-div::before,
+.option-div::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #878787;
+}
+
+.google-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.register-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.register-div span {
+  color: #fe8c00;
+  cursor: pointer;
+}
